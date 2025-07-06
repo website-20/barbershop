@@ -1785,4 +1785,120 @@
         <div class="booking-container">
             <div class="booking-info">
                 <h3>Nos Horaires</h3>
-                <p>Nous sommes à votre disposition pour vous offrir une expérience capillaire exceptionnelle aux
+                <p>Nous sommes à votre disposition pour vous offrir une expérience capillaire exceptionnelle aux horaires suivants :</p>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Lundi - Vendredi</h4>
+                        <p>9h00 - 19h00</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Samedi</h4>
+                        <p>9h00 - 18h00</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-text">
+                        <h4>Contact Direct</h4>
+                        <p>+33 1 23 45 67 89</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="booking-form">
+                <h3>Formulaire de Réservation</h3>
+                <form id="appointmentForm">
+                    <div class="form-group">
+                        <label for="name">Nom Complet</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date souhaitée</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" class="form-control" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="Tressage Artistique">Tressage Artistique</option>
+                            <option value="Coupe Sur Mesure">Coupe Sur Mesure</option>
+                            <option value="Coloration Premium">Coloration Premium</option>
+                            <option value="Soin Complet">Soin Complet</option>
+                            <option value="Soin de la Barbe">Soin de la Barbe</option>
+                            <option value="Extensions Capillaires">Extensions Capillaires</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message (optionnel)</label>
+                        <textarea id="message" class="form-control" rows="3" placeholder="Précisez vos attentes ou demandes spéciales"></textarea>
+                    </div>
+                    <button type="button" onclick="sendBookingViaWhatsApp()" class="btn whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Envoyer via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>Témoignages Clients</h2>
+            <p>Découvrez ce que nos clients disent de leur expérience chez Royal Barber.</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>Je suis cliente chez Royal Barber depuis 2 ans et je ne pourrais pas être plus satisfaite. Le tressage est toujours impeccable et dure des semaines. L'ambiance du salon est détendue et professionnelle à la fois.</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Fatou D.">
+                    </div>
+                    <div class="author-info">
+                        <h4>Fatou D.</h4>
+                        <p>Client depuis 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Nous Contacter</h2>
+            <p>N'hésitez pas à nous contacter pour toute question ou demande d'information.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Coordonnées</h3>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                           
